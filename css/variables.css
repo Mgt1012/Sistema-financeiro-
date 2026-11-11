@@ -1,0 +1,24 @@
+:root {
+    --primary: #0e9f6e;
+    --primary-dark: #0c8a5f;
+
+    --income: #0e9f6e;
+    --income-light: #dff7ec;
+
+    --expense: #e02424;
+    --expense-light: #fde8e8;
+
+    --balance: #2563eb;
+    --balance-light: #e3f2fd;
+
+    --background: #f4f8f6;
+    --white: #fff;
+
+    --text: #111827;
+    --text-light: #777;
+
+    --border: #eee;
+
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --radius: 16px;
+}

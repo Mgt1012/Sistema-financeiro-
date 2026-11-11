@@ -1,0 +1,14 @@
+function formatCurrency(value) {
+    return value.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL"
+    });
+}
+
+function formatDate(dateString) {
+    if (!dateString) return "";
+
+    const [year, month, day] = dateString.split("-");
+
+    return `${day}/${month}/${year}`;
+}
